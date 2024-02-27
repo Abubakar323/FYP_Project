@@ -1,0 +1,131 @@
+
+.Shopbtn{
+    background-color: black;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 50px;
+}
+#row2{
+    text-align: center;
+    /* color: white; */
+    border-radius: 10px;
+    /* background-color: gray; */
+    /* border-bottom: 5px solid black; */
+    
+}
+#Companies{
+    text-align: center;
+    font-size: 40px;
+}
+#btn1{
+    background-color: black;
+    padding: 10px 25px ;
+    color: white;
+    border-radius: 0px;
+}
+
+#btn1:hover{
+    background-color: white;
+    padding: 10px 25px ;
+    color: black;
+border: 2px solid black;
+
+}
+#btn2{
+border: 2px solid black;
+    padding: 10px 25px ;
+    color: black;
+    border-radius: 0px;
+}
+
+#btn2:hover{
+    border: 2px solid black;
+        padding: 10px 25px ;
+        color: white;
+        border-radius: 0px;
+        background-color: black;
+    }
+/* ..... */
+
+
+
+.animated-text{
+    font-size: 34px;
+    font-weight: 600;
+    min-width: 280px;
+}
+
+.animated-text span{
+    position: relative;
+}
+
+.animated-text span::before{
+    content: "Youtuber";
+    color: black;
+    animation: words 20s infinite;
+}
+
+.animated-text span::after{
+    content: "";
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 94%;
+    background-color: white;
+    border-left: 2px solid black;
+    right: -8px;
+    animation: cursor .8s infinite, typing 30s steps(14) infinite;
+}
+
+@keyframes cursor {
+    to{
+        border-left: 2px solid #ff7f5000;
+    }
+}
+
+@keyframes words {
+    0%,100%{
+        content: "Online Shopping Center";
+    }
+
+    
+}
+
+@keyframes typing {
+    10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{
+        width: 0;
+    }
+    5%,20%,25%,40%,45%,60%,65%,80%,85%{
+        width: calc(100% + 8px);
+    }
+}
+
+
+
+
+
+
+/* ....................... */
+
+
+#one{
+  background-image: url(../../images/five.jpg);
+  width: 100%;
+  height: auto;
+}
+
+#subscribebtn{
+  background-color: black;
+  padding: 10px 30px;
+  color: white;
+
+}
+
+#subscribebtn:hover{
+  background-color: transparent;
+  padding: 10px 30px;
+  color: black;
+  border: 2px solid black;
+  transition: 1s linear;
+  
+}
+
